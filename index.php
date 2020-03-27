@@ -2,8 +2,8 @@
 require_once('functions.php');
 $page_content=include_template('index.php',
 	[
-		'Cat'=>$categories,
-		'Lots'=>$lots,
+		'categories'=>$categories,
+		'lots'=>$lots,
 	]);
 $layout_content=include_template('layout.php',
 	[
@@ -12,7 +12,7 @@ $layout_content=include_template('layout.php',
 		'user_name'=>$user_name,
 		'page_content'=>$page_content,
 		'user_avatar'=>$user_avatar,
-		'Cat'=>$categories
+		'categories'=>$categories
 	]);
 print($layout_content);
 ?>

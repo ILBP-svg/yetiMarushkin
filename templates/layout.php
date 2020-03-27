@@ -59,7 +59,7 @@
     <nav class="nav">
         <ul class="nav__list container">
 <?php
-            foreach ($Cat as $key => $value) 
+            foreach ($categories as $key => $value) 
             {
 ?>
                 <li class="nav__item">
